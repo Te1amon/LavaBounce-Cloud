@@ -82,6 +82,44 @@
     "MaxDelay": 1000,
     "Retry": false
   },
+  "Aura": {
+    "MaxCPS": 12,
+    "MinCPS": 11,
+    "Disable on world change": true,
+    "HurtTime": 10,
+    "Range": 3.0,
+    "ThroughWallsRange": 3.0,
+    "RangeSprintReducement": 0.0,
+    "Priority": "Direction",
+    "TargetMode": "Single",
+    "Swing": true,
+    "KeepSprint": true,
+    "AutoBlock": "HypixelTest",
+    "InteractAutoBlock": true,
+    "BlockRate": 100,
+    "AutoBlock Ticks": 1,
+    "RayCast": true,
+    "RayCastIgnored": false,
+    "LivingRayCast": true,
+    "AAC": false,
+    "MaxTurnSpeed": 360.0,
+    "MinTurnSpeed": 360.0,
+    "SilentRotation": true,
+    "Strafe": "Off",
+    "RandomCenter": false,
+    "Outborder": false,
+    "FOV": 360.0,
+    "Predict": true,
+    "MaxPredictSize": 1.0,
+    "MinPredictSize": 1.0,
+    "FailRate": 0.0,
+    "FakeSwing": false,
+    "NoInvAttack": false,
+    "NoInvDelay": 200,
+    "LimitedMultiTargets": 0,
+    "Mark": true,
+    "FakeSharp": false
+  },
   "AutoArmor": {
     "MinDelay": 100,
     "MaxDelay": 150,
@@ -214,8 +252,8 @@
     "Rotations": true
   },
   "ChestStealer": {
-    "MaxDelay": 150,
-    "MinDelay": 100,
+    "MaxDelay": 250,
+    "MinDelay": 200,
     "DelayOnFirst": false,
     "TakeRandomized": false,
     "OnlyItems": false,
@@ -314,6 +352,7 @@
   },
   "Fly": {
     "Mode": "FakeGround",
+    "Disable on world change": true,
     "VanillaSpeed": 0.96,
     "VanillaKickBypass": false,
     "NCPMotion": 0.0,
@@ -422,43 +461,6 @@
   "Kick": {
     "Mode": "Quit"
   },
-  "KillAura": {
-    "MaxCPS": 12,
-    "MinCPS": 11,
-    "HurtTime": 10,
-    "Range": 3.0,
-    "ThroughWallsRange": 0.07,
-    "RangeSprintReducement": 0.03,
-    "Priority": "Distance",
-    "TargetMode": "Single",
-    "Swing": true,
-    "KeepSprint": true,
-    "AutoBlock": "Blockdrop",
-    "InteractAutoBlock": true,
-    "BlockRate": 100,
-    "AutoBlock Ticks": 1,
-    "RayCast": true,
-    "RayCastIgnored": false,
-    "LivingRayCast": true,
-    "AAC": false,
-    "MaxTurnSpeed": 360.0,
-    "MinTurnSpeed": 360.0,
-    "SilentRotation": true,
-    "Strafe": "Off",
-    "RandomCenter": false,
-    "Outborder": false,
-    "FOV": 360.0,
-    "Predict": true,
-    "MaxPredictSize": 1.0,
-    "MinPredictSize": 1.0,
-    "FailRate": 0.0,
-    "FakeSwing": false,
-    "NoInvAttack": false,
-    "NoInvDelay": 200,
-    "LimitedMultiTargets": 0,
-    "Mark": true,
-    "FakeSharp": false
-  },
   "LiquidChat": {
     "JWT": false
   },
@@ -468,7 +470,7 @@
     "AACFlyMotion": 0.5
   },
   "LongJump": {
-    "Mode": "NCP",
+    "Mode": "DamageVerus",
     "DamageVerus Motion": 1.3,
     "NCPBoost": 1.36,
     "AutoJump": false
@@ -565,8 +567,8 @@
     "Rainbow": false
   },
   "Reach": {
-    "CombatReach": 3.5,
-    "BuildReach": 5.0
+    "CombatReach": 3.0,
+    "BuildReach": 100.0
   },
   "Regen": {
     "Mode": "Vanilla",
@@ -586,7 +588,7 @@
     "AirSafe": false
   },
   "Scaffold": {
-    "Mode": "Normal",
+    "Mode": "Eagle",
     "MaxDelay": 0,
     "MinDelay": 0,
     "PlaceDelay": true,
@@ -652,11 +654,11 @@
   "Spammer": {
     "MaxDelay": 1000,
     "MinDelay": 500,
-    "Message": "LavaBounce Client | liquidbounce(.net) | CCBlueX on yt",
+    "Message": "LavaBounce Client on top xd",
     "Custom": false
   },
   "Speed": {
-    "Mode": "Anticheat B (LatestNCP, Verus)",
+    "Mode": "LatestHypixelHop",
     "CustomSpeed": 1.6,
     "CustomY": 0.34,
     "CustomTimer": 1.0,
@@ -719,7 +721,7 @@
     "OnMove": true
   },
   "Tower": {
-    "Mode": "ConstantMotion",
+    "Mode": "Hypixel",
     "AutoBlock": "Spoof",
     "Swing": true,
     "StopWhenBlockAbove": true,
@@ -756,8 +758,8 @@
     "Entities": true
   },
   "Velocity": {
-    "Horizontal": 0.0,
-    "Vertical": 0.0,
+    "Horizontal": 100.0,
+    "Vertical": 100.0,
     "Mode": "Simple",
     "ReverseStrength": 1.0,
     "SmoothReverseStrength": 0.05,

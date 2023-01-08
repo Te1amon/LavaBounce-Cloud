@@ -94,7 +94,7 @@
     "TargetMode": "Single",
     "Swing": true,
     "KeepSprint": true,
-    "AutoBlock": "HypixelTest",
+    "AutoBlock": "Hypixel",
     "InteractAutoBlock": true,
     "BlockRate": 100,
     "AutoBlock Ticks": 1,
@@ -567,8 +567,8 @@
     "Rainbow": false
   },
   "Reach": {
-    "CombatReach": 3.0,
-    "BuildReach": 100.0
+    "CombatReach": 3.1,
+    "BuildReach": 5.0
   },
   "Regen": {
     "Mode": "Vanilla",
@@ -588,8 +588,8 @@
     "AirSafe": false
   },
   "Scaffold": {
-    "Mode": "Eagle",
-    "MaxDelay": 0,
+    "Mode": "Hypixel",
+    "MaxDelay": 14,
     "MinDelay": 0,
     "PlaceDelay": true,
     "AutoBlock": "Spoof",
@@ -599,14 +599,14 @@
     "Down": true,
     "PlaceTiming": "Post",
     "Eagle": "Off",
-    "BlocksToEagle": 0,
+    "BlocksToEagle": 10,
     "EagleEdgeDistance": 0.0,
     "OmniDirectionalExpand": false,
     "ExpandLength": 1,
     "Strafe": "Off",
-    "Rotations": false,
-    "SilentRotation": false,
-    "KeepRotation": false,
+    "Rotations": true,
+    "SilentRotation": true,
+    "KeepRotation": true,
     "KeepRotationLength": 0,
     "XYZSearch": "AutoCenter",
     "xzRange": 0.0,
@@ -616,8 +616,8 @@
     "MaxTurnSpeed": 180.0,
     "MinTurnSpeed": 180.0,
     "Zitter": "Off",
-    "ZitterSpeed": 0.13,
-    "ZitterStrength": 0.05,
+    "ZitterSpeed": 0.3,
+    "ZitterStrength": 0.01,
     "Timer": 1.0,
     "SpeedModifier": 1.0,
     "Slow": false,
@@ -654,11 +654,11 @@
   "Spammer": {
     "MaxDelay": 1000,
     "MinDelay": 500,
-    "Message": "LavaBounce Client on top xd",
+    "Message": "LavaBounce Client | liquidbounce(.net) | CCBlueX on yt",
     "Custom": false
   },
   "Speed": {
-    "Mode": "LatestHypixelHop",
+    "Mode": "Hypixel",
     "CustomSpeed": 1.6,
     "CustomY": 0.34,
     "CustomTimer": 1.0,
@@ -758,8 +758,8 @@
     "Entities": true
   },
   "Velocity": {
-    "Horizontal": 100.0,
-    "Vertical": 100.0,
+    "Horizontal": 0.0,
+    "Vertical": 0.0,
     "Mode": "Simple",
     "ReverseStrength": 1.0,
     "SmoothReverseStrength": 0.05,
